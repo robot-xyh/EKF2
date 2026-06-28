@@ -1,0 +1,15 @@
+# Build outputs
+build/
+**/build/
+*.o
+
+# Local binaries produced by the Makefile
+RK3588_OrangePi5Plus/sensor
+RK3588_OrangePi5Plus/sensor_ekf2
+RK3588_OrangePi5Plus/sensor_bfnav
+RK3588_OrangePi5Plus/spitest
+RK3588_OrangePi5Plus/ubx_test
+RK3588_OrangePi5Plus/bfnav_test
+
+# Packaged archive copy
+*.zip
